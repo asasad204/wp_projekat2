@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Helvetica;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #132043 !important;
+}
+header {
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+body hr {
+    border-color: #cf9f43;
+    width: 100%;
+}
+
+.dugme {
+
+    background-color: #cf9f43 !important;
+    border-color: white !important;
+    color: #132043 !important;
+    font-weight: bold !important;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    color: #132043;
+    background-color: #cf9f43;
+    border-radius: 10px;
+    font-size: large;
+    flex-direction: column;
+}
+.footer-text {
+    color: white;
+}
+@media (max-width: 785px) {
+    .container-fluid .row {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .container-fluid .row .col img {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
